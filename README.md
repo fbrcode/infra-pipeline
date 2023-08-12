@@ -2,7 +2,7 @@
 
 This is a template/boilerplate for deploying AWS infrastructure with CDK.
 
-## Init
+## Initial setup
 
 Bootstrap AWS CDK with the deployer AWS account:
 
@@ -31,7 +31,7 @@ Main entrypoint for infrastructure stacks is defined at `infra/src/main.ts`.
 
 ## Deploy
 
-Deploy/ update existing infrastructure:
+Deploy & update existing infrastructure:
 
 ```sh
 
