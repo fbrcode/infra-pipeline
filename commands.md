@@ -24,8 +24,8 @@ Update references:
 yarn add aws-cdk-lib constructs
 mkdir -p infra/src/
 cp cdk/bin/cdk.ts infra/src/main.ts
-mkdir -p infra/src/main/app
-cp cdk/lib/cdk-stack.ts infra/src/main/app
+mkdir -p infra/src/app/
+cp cdk/lib/cdk-stack.ts infra/src/app/
 mv cdk/test infra/
 mv infra/test/cdk.test.ts infra/test/main.test.ts
 ```
@@ -49,4 +49,5 @@ yarn add -D @types/jest # add jest types
 yarn add -D @types/node # read environment variables
 yarn add source-map-support
 yarn add -D @types/source-map-support
+yarn add -D rimraf
 ```
