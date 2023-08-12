@@ -29,12 +29,22 @@ Infrastructure definition is located in `infra/src/app/cdk-stack.ts`.
 
 Main entrypoint for infrastructure stacks is defined at `infra/src/main.ts`.
 
-## Deploy
+## Deploy Stack
 
 Deploy & update existing infrastructure:
 
 ```sh
 
 yarn deploy
+
+```
+
+## Destroy Stack
+
+Destroy existing infrastructure:
+
+```sh
+
+yarn drop
 
 ```

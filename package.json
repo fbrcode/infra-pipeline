@@ -10,7 +10,8 @@
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk",
-    "deploy": "yarn build && cdk deploy"
+    "deploy": "yarn build && cdk deploy",
+    "drop": "cdk destroy"
   },
   "dependencies": {
     "aws-cdk-lib": "^2.91.0",
