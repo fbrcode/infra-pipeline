@@ -10,12 +10,17 @@ Bootstrap AWS CDK with the deployer AWS account:
 
 ```sh
 yarn cdk bootstrap aws://<ACCOUNT>/<REGION> \
---cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess aws://<ACCOUNT>/<REGION>
+--cloudformation-execution-policies \
+arn:aws:iam::aws:policy/AdministratorAccess \
+aws://<ACCOUNT>/<REGION>
 
 # Example:
 
 yarn cdk bootstrap aws://098162465323/sa-east-1 \
---cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess aws://098162465323/sa-east-1
+--cloudformation-execution-policies \
+arn:aws:iam::aws:policy/AdministratorAccess \
+aws://098162465323/sa-east-1
+
 ```
 
 ## Development
