@@ -47,4 +47,6 @@ yarn add -D jest # add jest
 yarn add -D ts-jest # add jest typescript support
 yarn add -D @types/jest # add jest types
 yarn add -D @types/node # read environment variables
+yarn add source-map-support
+yarn add -D @types/source-map-support
 ```
